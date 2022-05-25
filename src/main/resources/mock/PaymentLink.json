@@ -1,0 +1,13 @@
+{
+  "initiatingPtyId": "000123",
+  "messageId": "9jgweab35a542e085add0363a49c897",
+  "createDateTime": "2017-07-21T17:32:28Z",
+  "originalMessageId": "7eab4eab35a542e085add0363a49c035",
+  "transactionIdentification": {
+    "schemeTxId": "923123123123123100",
+    "linkingReference": "5454673546980123"
+  },
+  "statusInformation": {
+    "transactionStatus": "RCVD"
+  }
+}

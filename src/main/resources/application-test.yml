@@ -1,0 +1,45 @@
+spring:
+  main:
+    banner-mode: off
+  flyway:
+    enabled: false
+  application:
+    name: mockserver
+  servlet:
+    multipart:
+      max-file-size: 1MB
+logging:
+  level:
+    root: ${LOGGING_LEVEL:ERROR}
+    com.mastercard.ap.billpay.MockserverServiceApplication: INFO
+    com.mastercard.ap.billpay.service.paymentlink.impl.CreateLinkServiceImpl: INFO
+server:
+  port: 8089
+  compression:
+    enabled: true
+    mime-types: text/json,application/json
+    min-response-size: 1024
+  http2:
+    enabled: true
+  jetty:
+    accesslog:
+      enabled: true
+      log-latency: true
+
+management:
+  server.port: 9001
+  management.server.address: 127.0.0.1
+  endpoints:
+    web:
+      exposure:
+        exlude: "*"
+        include: "health"
+    jmx:
+      exposure:
+        exlude: "*"
+mock:
+  payment-link:
+    create: /mock/PaymentLink.json
+    delete: /mock/DeleteLink.json
+  payment-request:
+    confirm: /mock/PaymentConfirmAdvice.json

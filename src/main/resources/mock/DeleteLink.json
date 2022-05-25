@@ -1,0 +1,15 @@
+{
+  "messageId": "4utp4eab35a542e085add0363a49a435",
+  "createDateTime": "2017-07-21T17:32:28Z",
+  "initiatingPtyId": "000123",
+  "originalMessageId": "7eab4eab35a542e085add0363a49c035",
+  "creditorInformation": {
+    "creditorId": "VerizonoMobile000123"
+  },
+  "transactionIdentification": {
+    "schemeTxId": "923123123123123100"
+  },
+  "statusInformation": {
+    "transactionStatus": "PRCS"
+  }
+}

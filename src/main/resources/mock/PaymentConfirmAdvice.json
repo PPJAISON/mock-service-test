@@ -1,0 +1,17 @@
+{
+  "messageInformation": {
+    "messageId": "7eab4eab35a542e085add0363a49c035",
+    "createDateTime": "2020-11-20T06:57:24.465Z",
+    "originalMessageId": "0eab4eab35a542e085add0363a49c987",
+    "initiatingPtyId": "000123"
+  },
+  "originalTransactionInformation": {
+    "originalPaymentInformationId": "923123123123123100",
+    "originalEndToEndId": "7jhg5eab35a542e085add0363a4423o6",
+    "accountServicerReference": "6755231231233212"
+  },
+  "statusInformation": {
+    "transactionStatus": "RCVD",
+    "additionalInformation": "MNSB"
+  }
+}
