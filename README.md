@@ -358,3 +358,9 @@ Tagging Docker image
 ```bash
 docker tag billpay-service gcr.io/mastercard/billpay-service:0.1
 ```
+
+* **Skip Test Case and Sonar analysis during build** This will perform the **clean** task followed by **build** process; skips the test cases execution and code coverage,
+
+   ```
+   mvn clean package -Dmaven.test.skip=true -Dsonar.skip=true
+   ```
